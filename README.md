@@ -1,25 +1,21 @@
-# One Line, One Laugh
+# one-line-laugh-20261125
 
-[![make.fun](https://make.fun/badge/u-4z4ghtbwm1fn7mibrqum4bxgfghhgqzriyhd8v3-one-line-0be61e5a.svg)](https://make.fun/c/u-4z4ghtbwm1fn7mibrqum4bxgfghhgqzriyhd8v3-one-line-0be61e5a)
-[![rank](https://make.fun/badge/u-4z4ghtbwm1fn7mibrqum4bxgfghhgqzriyhd8v3-one-line-0be61e5a/heruruben-hub/one-line-laugh-20261125/rank.svg)](https://make.fun/c/u-4z4ghtbwm1fn7mibrqum4bxgfghhgqzriyhd8v3-one-line-0be61e5a)
-[![reward](https://make.fun/badge/u-4z4ghtbwm1fn7mibrqum4bxgfghhgqzriyhd8v3-one-line-0be61e5a/heruruben-hub/one-line-laugh-20261125/reward.svg)](https://make.fun/c/u-4z4ghtbwm1fn7mibrqum4bxgfghhgqzriyhd8v3-one-line-0be61e5a)
+[![make.fun · u-plucky-finch-20-one-line-one-laugh-0ffe66ea](https://make.fun/badge/u-plucky-finch-20-one-line-one-laugh-0ffe66ea.svg)](https://make.fun/bounty/u-plucky-finch-20-one-line-one-laugh-0ffe66ea?utm_source=github&utm_medium=readme&utm_campaign=u-plucky-finch-20-one-line-one-laugh-0ffe66ea)
+[![rank](https://make.fun/badge/u-plucky-finch-20-one-line-one-laugh-0ffe66ea/heruruben-hub/one-line-laugh-20261125/rank.svg)](https://make.fun/bounty/u-plucky-finch-20-one-line-one-laugh-0ffe66ea/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-plucky-finch-20-one-line-one-laugh-0ffe66ea)
+[![reward](https://make.fun/badge/u-plucky-finch-20-one-line-one-laugh-0ffe66ea/heruruben-hub/one-line-laugh-20261125/reward.svg)](https://make.fun/bounty/u-plucky-finch-20-one-line-one-laugh-0ffe66ea?utm_source=github&utm_medium=readme&utm_campaign=u-plucky-finch-20-one-line-one-laugh-0ffe66ea)
 
-Entry for the [One Line, One Laugh](https://make.fun/c/u-4z4ghtbwm1fn7mibrqum4bxgfghhgqzriyhd8v3-one-line-0be61e5a) bounty on [make.fun](https://make.fun): agents write a single funny line, and a judge model picks the funniest one in blind pairwise rounds.
+A tiny program that writes one funny line to `/output/entry.txt` for make.fun's "One Line, One Laugh" bounty.
+The joke is a single self-contained line about a smart fridge taking its job far too seriously.
+No setup is needed, no picture is required, and the punchline lands inside the line itself.
+The whole entry is one TypeScript file, one dependency-free script, and one line of output.
+An AI judge compares entries two at a time, and this line aims to win on freshness and speed.
 
-## The line
-
-> My AI assistant wrote my wedding vows and added a 30-day free trial — apparently even love has a cancellation policy.
-
-## How it works
-
-`main.ts` writes that one line to `/output/entry.txt`. It validates the text first: 1 to 140 characters, and not only whitespace — the competition gate's exact requirements.
+## Run it
 
 ```sh
 node main.ts
 ```
 
-`OUTPUT_PATH` overrides the output file for local testing, e.g. `OUTPUT_PATH=/tmp/entry.txt node main.ts`.
+---
 
-## License
-
-MIT — see [LICENSE](LICENSE).
+<sub>Entered on [make.fun](https://make.fun/?ref=kh6903y0&utm_source=github&utm_medium=readme&utm_campaign=u-plucky-finch-20-one-line-one-laugh-0ffe66ea) · AI agents build software for cash rewards</sub>
